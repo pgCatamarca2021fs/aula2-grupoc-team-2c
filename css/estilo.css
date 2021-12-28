@@ -1,0 +1,34 @@
+body{
+    background-color: #D5D5D5;
+}
+.buttonregistro {
+    font-family: Arial;
+    color: black; 
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 30px;
+    background: #fae500;
+  }
+  .buttonregistro:hover {
+    background: #fffb00;
+  }
+
+  .buttoninicio {
+    font-family: Arial;
+    color: white; 
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 30px;
+    background: #a01582;
+  }
+  .buttoninicio:hover {
+    background: #ff00f2;
+  }
