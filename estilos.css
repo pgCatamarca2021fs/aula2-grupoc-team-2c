@@ -1,0 +1,160 @@
+.formulario{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  #titulo{
+      background-color: black;
+      text-align: center;
+  }
+  
+  h1{
+      color: white;
+  }
+  
+  * {
+      box-sizing: border-box;
+    }
+    
+    .input, select, textarea{
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+    }
+    
+    label {
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+    }
+    
+    input[type=reset] {
+      background-color: red;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+    }
+  
+    input[type=submit],.ingreso_perfil{
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: left;
+    }
+    input[type=reset]:hover  {
+      background-color: rgb(175, 9, 9);
+    }
+    
+    input[type=submit]:hover {
+      background-color: #026a08;
+    }
+    
+    .col-25 {
+      float: left;
+      width: 25%;
+      margin-top: 6px;
+    }
+    
+    .col-75 {
+      float: left;
+      width: 75%;
+      margin-top: 6px;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .col-25, .col-75, input[type=submit],input[type=reset]  {
+        width: 100%;
+        margin-top: 0;
+      }
+    }
+
+
+
+  /*HOJA DE ESTILO PRINCIPAL TIENE NAV, LA IMAGEN, BODY,  FOOTER*/
+  body{
+    background-color: rgba(1, 11, 49, 0.926);
+}
+
+.container {
+    border-radius: 5px;
+    background-color: rgba(0, 28, 138, 0.926);
+    padding: 20px;
+  }
+
+
+section{
+    background-color: #fdfdfd;
+}
+
+#titulo{
+    background-color: #17a2b8;
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+
+
+
+.navbar{
+    align-content: center;
+    background-color: #044e97;
+}
+
+
+.nav-item a{
+    color: rgb(221, 219, 219);
+    text-align: center;
+    padding: 15px 40px;
+    text-decoration: none;
+}
+
+.nav-item a:hover{
+    background-color: rgb(242, 95, 242);
+}
+
+
+.navbar-toggler{
+    color: #f2f2f2;
+}
+
+.collapse{
+    justify-content: center;
+}
+
+.col-sm-5{
+    border-color: 1px solid black;
+}
+
+
+footer{
+    background-color: #044e97;
+    color: rgb(221, 219, 219);
+}
+
+h4{
+    text-align:center;
+    font-size: large;
+}
+
