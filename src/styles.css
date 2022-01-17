@@ -1,10 +1,4 @@
-/* -----Globales---- */
-
-
-
-
-
-/* Globales*/
+/* Globals */
 
 /* Body */
 body
@@ -13,21 +7,19 @@ body
 }
 
 
-/* Contenedor */
+/* Container */
 
-.contenedor
+.main-container
 {
     max-width: 1200px;
-
     margin-left: auto;
     margin-right: auto;
-
 }
+
 img
 {
     max-width: 100%;
 }
-/* imagen principal */
 
 .site-img
 {
@@ -37,18 +29,17 @@ img
     height: 40rem;
     display: flex;
     align-items: center;
-
 }
 
-.contenido-texto
+.text-content
 {
     flex: 1;
     line-height : 80px;
     color: #ffffff;
-    
+
 }
 
-.contenido-texto a
+.text-content a
 {
     color: #181A20;
     background-color: #FCD535;
@@ -64,9 +55,9 @@ img
 
 }
 
-/* Cartas mas*/
+/* Cards */
 
-.contenedor-cartas
+.card-container
 {
-    flex: 0 0 calc(33.3% - 1rem);  
+    flex: 0 0 calc(33.3% - 1rem);
 }
