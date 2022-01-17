@@ -6,7 +6,9 @@ import { ComponentFixture } from '@angular/core/testing';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: 'login', component: LoginComponent }
+  { path: 'login', component: LoginComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' }
+  /* { path: 'account/:id', component: AccountDetailComponent} ---Ejemplo de ruta dinámica para futuro---*/
 ];
 
 @NgModule({
