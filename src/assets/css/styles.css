@@ -1,3 +1,28 @@
+/* -----Globales---- */
+
+
+
+
+
+/* Globales*/
+
+/* Body */
+body
+{
+    background-color: #181A20;
+}
+
+
+/* Contenedor */
+
+.contenedor
+{
+    max-width: 1200px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
 img
 {
     max-width: 100%;
@@ -6,7 +31,7 @@ img
 
 .site-img
 {
-    background-image: url(src/assets/img/Registro.jpg);
+    background-image: url(../img/Registro.png);
     background-position: center center;
     background-size: cover;
     height: 40rem;
@@ -20,7 +45,7 @@ img
     flex: 1;
     line-height : 80px;
     color: #ffffff;
-
+    
 }
 
 .contenido-texto a
@@ -38,3 +63,14 @@ img
     margin-top: 80px;
 
 }
+
+/* Cartas mas*/
+
+.contenedor-cartas
+{
+    flex: 0 0 calc(33.3% - 1rem);  
+}
+
+
+
+

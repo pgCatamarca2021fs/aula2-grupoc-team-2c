@@ -1,0 +1,10 @@
+footer{
+  background-color: #181A20;
+  color: aliceblue;
+  height: 80px;
+}
+.texto-footer{
+  text-align: center;
+  color: aliceblue;
+  padding-top: 30px;
+}
