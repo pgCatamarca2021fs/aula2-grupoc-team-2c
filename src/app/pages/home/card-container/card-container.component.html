@@ -1,30 +1,20 @@
-<div class="container-fluid">
-  <h2 class="text-white d-flex justify-content-center m-5">Que podes hacer en Bubucripto</h2>
-  <div class="row">
-     <div class="col-md-4">
-        <img src="/assets/img/Depositar.png" class="card-img-top" alt="Depositar-img" >
-        <div class="card-body">
-          <h5 class="card-title">Depositar</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-     </div>
-     <div class="col-md-4">
-        <img src="/assets/img/comprar.png" class="card-img-top-center" alt="Comprar-img">
-        <div class="card-body">
-          <h5 class="card-title">Comprar</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-     </div>
-     <div class="col-md-4">
-        <img src="/assets/img/transferir.png" class="card-img-top" alt="Transferir-img">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-     </div>
+<section >
+  <!-- Cuadros -->
+  <h2 class="text-white d-flex justify-content-center m-5">Que podes hacer en ----</h2>
 
-</div>
-</div>
+  <div class="card-deck d-flex main-container">
+    <app-card
+      [titulo]="titulo1"
+      [imagenDireccion]="imagen1">
+    </app-card>
+    <app-card
+      [titulo]="titulo2"
+      [imagenDireccion]="imagen2">
+    </app-card>
+    <app-card
+      [titulo]="titulo3"
+      [imagenDireccion]="imagen3">
+    </app-card>
+  </div>
+
+</section>
