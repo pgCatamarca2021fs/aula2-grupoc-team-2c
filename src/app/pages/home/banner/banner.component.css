@@ -7,3 +7,10 @@ section{
 #banner-home{
     background-color: rgba(44, 38, 38, 0.5);
 }
+
+@media only screen and (max-width:768px) {
+  .text-content{
+    text-align: center;
+  }
+}
+

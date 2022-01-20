@@ -34,13 +34,13 @@ img
 .text-content
 {
     flex: 1;
-    line-height : 80px;
     color: #ffffff;
-
 }
+
 
 .text-content a
 {
+    line-height : 80px;
     color: #181A20;
     background-color: #FCD535;
     font-weight: 500;

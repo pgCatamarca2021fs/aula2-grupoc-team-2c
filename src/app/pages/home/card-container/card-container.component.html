@@ -2,17 +2,27 @@
   <!-- Cuadros -->
   <h2 class="text-white d-flex justify-content-center m-5">Que podes hacer en ----</h2>
 
-  <div class="card-deck d-flex main-container">
-    <app-card
-      [title]="title1"
-      [imgUrl]="imgUrl1">
-    </app-card>
-    <app-card
-      [title]="title2"
-      [imgUrl]="imgUrl2">    </app-card>
-    <app-card
-      [title]="title3"
-      [imgUrl]="imgUrl3">    </app-card>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-4">
+        <app-card
+          [title]="title1"
+          [imgUrl]="imgUrl1">
+        </app-card>
+      </div>
+      <div class="col-12 col-md-4">
+        <app-card
+          [title]="title2"
+          [imgUrl]="imgUrl2">
+        </app-card>
+      </div>
+      <div class="col-12 col-md-4">
+        <app-card
+          [title]="title3"
+          [imgUrl]="imgUrl3">
+        </app-card>
+      </div>
+    </div>
   </div>
 
 </section>
