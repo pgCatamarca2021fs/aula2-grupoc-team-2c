@@ -1,9 +1,9 @@
 section{
     background-image: url(../../../../assets/img/paisaje.jpg);
     background-size: cover;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
 }
 
-#transparencia{
+#banner-home{
     background-color: rgba(44, 38, 38, 0.5);
 }

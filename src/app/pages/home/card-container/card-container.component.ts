@@ -9,13 +9,13 @@ export class CardContainerComponent implements OnInit {
 
   constructor() { }
 
-  imagen1: string = '../../../../assets/img/team.jpg';
-  imagen2: string = '../../../../assets/img/finanza.jpg';
-  imagen3: string = '../../../../assets/img/equip.jpg';
+  imgUrl1: string = '../../../../assets/img/team.jpg';
+  imgUrl2: string = '../../../../assets/img/finanza.jpg';
+  imgUrl3: string = '../../../../assets/img/equip.jpg';
 
-  titulo1: string = 'Busqueda de Mejoras';
-  titulo2: string = 'Finanzas Elevadas';
-  titulo3: string = 'Equipo y Calidad de Primera';
+  title1: string = 'Busqueda de Mejoras';
+  title2: string = 'Finanzas Elevadas';
+  title3: string = 'Equipo y Calidad de Primera';
 
   ngOnInit(): void {
   }
