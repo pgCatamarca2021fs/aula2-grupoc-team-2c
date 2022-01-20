@@ -24,14 +24,14 @@
   display: block;
 }
 
-.remember-me{
-  padding-left: 30px;
-}
-
-button{
+.btn{
   padding: auto;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.form-group{
+  margin-bottom: 15px;
 }
 
 .form-control{

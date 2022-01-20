@@ -5,6 +5,7 @@ import { HomeComponent } from './home.component';
 import { BannerComponent } from './banner/banner.component';
 import { CardContainerComponent } from './card-container/card-container.component';
 import { CardComponent } from './card/card.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CardComponent } from './card/card.component';
     CardComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: []
 })

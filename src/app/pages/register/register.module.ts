@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 import { RegisterComponent } from './register.component';
 
@@ -10,7 +11,8 @@ import { RegisterComponent } from './register.component';
     RegisterComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ]
 })
 export class RegisterModule { }
