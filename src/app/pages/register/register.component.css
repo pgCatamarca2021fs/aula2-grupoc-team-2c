@@ -1,55 +1,45 @@
 .form-signin{
-
   background-color: #181A20;
   color: aliceblue;
-  padding-top: 100px;
-  padding-bottom: 250px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
-#form-login{
+
+#form-register{
   margin-left: auto;
   margin-right: auto;
   display: block;
   width: 60%;
 }
-#title{
-  text-align: center;
-}
+
 #logo{
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
-#email{
-  margin-top: 20px;;
-  margin-bottom: 20px;
-}
-#pass{
-  margin-top: 20px;;
-  margin-bottom: 20px;
-}
-.recuerdame{
+
+.remember-me{
   padding-left: 30px;
 }
-#descripcion{
-  text-align: center;
-}
-#ingresar{
-  padding: auto;
-  margin-top: 10px;
+
+button{
   margin-bottom: 10px;
+  margin-top: 10px;
+  padding: auto;
 }
 
-#registrarse{
-  margin-bottom: 10px;
-  margin-top: 10px;
-  padding: auto;
+.form-group{
+  padding-bottom: 15px;
 }
-#labelemail{
-  color: aliceblue;
-}
+
 .form-control{
-
   height: 60px;
+}
+
+@media only screen and (max-width:768px) {
+  #form-register{
+    width: 100%;
+  }
 }

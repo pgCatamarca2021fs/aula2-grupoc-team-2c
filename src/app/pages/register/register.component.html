@@ -1,47 +1,45 @@
 <div class="form-signin">
-<form  method="post" id="form-login">
-  <img class="mb-4" src="assets\img\Logo.png" alt="" id="logo">
-  <h1 class="h3 mb-3 fw-normal" id="title">Regístrate, Es gratis!!!</h1>
+  <form  method="post" id="form-login">
+    <img class="mb-4" src="assets\img\Logo.png" alt="" id="logo">
+    <h1 class="h3 mb-3 fw-normal text-center">Regístrate, Es gratis!!!</h1>
 
-  <div class="form">
-    <label class="descripcion">Email</label>
-    <input type="email" class="form-control" placeholder="name@example.com" id="email">
-  </div>
-  <div class="row">
-    <div class="col-lg-6">
-        <div class="form">
-          <div class="form">
-            <label  class="descripcion">Nombre</label>
-            <input type="Nombre" class="form-control" placeholder="Nombre" id="pass">
-          </div>
-        </div>
+    <div class="form-group">
+      <label class="text-center">Email</label>
+      <input type="email" class="form-control" placeholder="name@example.com" id="email">
     </div>
-    <div class="col-lg-6">
-      <div class="form">
-        <label  class="descripcion">DNI</label>
-        <input type="DNI" class="form-control" placeholder="DNI" id="pass">
+
+    <div class="row">
+      <div class="col-lg-6 form-group">
+        <label class="text-center">Nombre</label>
+        <input type="Nombre" class="form-control" placeholder="Nombre" id="name">
       </div>
-  </div>
-  </div>
-  <div class="form">
-    <label  class="descripcion">Contraseña</label>
-    <input type="password" class="form-control" placeholder="Password" id="pass">
-  </div>
-  <div class="form">
-    <label  class="descripcion">Repetir contraseña</label>
-    <input type="password" class="form-control" placeholder="Password 2" id="pass">
-  </div>
-  <div class="checkbox mb-3" id="checkbox">
-    <label class="recuerdame">
-      <input type="checkbox" value="remember-me"> Acepto condiciones y servivios
-    </label>
-  </div>
-  <div class="row justify-content-center">
-    <div class="col-lg-6 ">
-      <button class="w-100 btn btn-lg btn-primary " type="submit" id="registrarse">Registrarme</button>
+      <div class="col-lg-6 form-group">
+        <label class="text-center">DNI</label>
+        <input type="DNI" class="form-control" placeholder="DNI" id="dni">
+      </div>
     </div>
-  </div>
 
-  <p class="mt-5 mb-3 text-muted" id="descripcion">&copy; 2021–2022</p>
-</form>
+    <div class="form-group">
+      <label class="text-center">Contraseña</label>
+      <input type="password" class="form-control" placeholder="Password" id="pass">
+    </div>
+
+    <div class="form-group">
+      <label class="text-center">Repetir contraseña</label>
+      <input type="password" class="form-control" placeholder="Confirma tu password" id="pass-confirm">
+    </div>
+
+    <div class="checkbox mb-3" id="checkbox">
+      <label class="remeber-me">
+        <input type="checkbox" value="remember-me"> Acepto los términos y condiciones
+      </label>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-6 ">
+        <button class="w-100 btn btn-lg btn-primary " type="submit" id="register">Registrarme</button>
+      </div>
+    </div>
+
+  </form>
 </div>
