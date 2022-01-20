@@ -3,11 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ComponentFixture } from '@angular/core/testing';
+import { RegisterComponent } from './pages/register/register.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'login', component: LoginComponent },
-  { path: '', redirectTo: '/home', pathMatch: 'full' }
+  { path: 'register', component: RegisterComponent },
+  { path: '', component: HomeComponent }
   /* { path: 'account/:id', component: AccountDetailComponent} ---Ejemplo de ruta dinámica para futuro---*/
 ];
 
