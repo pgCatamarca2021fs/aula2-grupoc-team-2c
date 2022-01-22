@@ -1,0 +1,63 @@
+/* Globals */
+
+/* Body */
+body
+{
+    background-color: #181A20;
+}
+
+
+/* Container */
+
+.main-container
+{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+.site-img
+{
+    /* background-image: url(../img/Registro.png);  GUARDAR LA IMAGEN EN ASSETS/IMG Y MODIFICAR LA URL*/
+    background-position: center center;
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+}
+
+.text-content
+{
+    flex: 1;
+    line-height : 80px;
+    color: #ffffff;
+
+}
+
+.text-content a
+{
+    color: #181A20;
+    background-color: #FCD535;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 80px;
+
+}
+
+/* Cards */
+
+.card-container
+{
+    flex: 0 0 calc(33.3% - 1rem);
+}
