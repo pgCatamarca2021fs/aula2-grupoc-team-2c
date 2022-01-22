@@ -13,8 +13,9 @@ export class CardComponent implements OnInit {
   @Input() imagenDireccion: string = '';
   @Input() ejemplo: any = '';
 
-
   ngOnInit(): void {
   }
 
 }
+
+
