@@ -12,11 +12,10 @@ export class CardComponent implements OnInit {
   @Input() titulo: string = ''; // el @Input recibe un valor del componente padre.
   @Input() imagenDireccion: string = '';
   @Input() ejemplo: any = '';
-  
 
   ngOnInit(): void {
   }
-  
+
 }
 
 

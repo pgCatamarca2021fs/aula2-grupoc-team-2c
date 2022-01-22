@@ -1,0 +1,76 @@
+/* -----Globales---- */
+
+
+
+
+
+/* Globales*/
+
+/* Body */
+body
+{
+    background-color: #181A20;
+}
+
+
+/* Contenedor */
+
+.contenedor
+{
+    max-width: 1200px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+img
+{
+    max-width: 100%;
+}
+/* imagen principal */
+
+.site-img
+{
+    background-image: url(../img/Registro.png);
+    background-position: center center;
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.contenido-texto
+{
+    flex: 1;
+    line-height : 80px;
+    color: #ffffff;
+    
+}
+
+.contenido-texto a
+{
+    color: #181A20;
+    background-color: #FCD535;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 80px;
+
+}
+
+/* Cartas mas*/
+
+.contenedor-cartas
+{
+    flex: 0 0 calc(33.3% - 1rem);  
+}
+
+
+
+
