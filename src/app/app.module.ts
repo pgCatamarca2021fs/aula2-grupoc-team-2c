@@ -9,22 +9,22 @@ import { FooterComponent } from './commons/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeModule } from './pages/home/home.module';
 import { LoginModule } from './pages/login/login.module';
-import { RegisterComponent } from './pages/register/register.component';
+import { RegisterModule } from './pages/register/register.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent,
-    RegisterComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     HomeModule,
-    LoginModule
+    LoginModule,
+    RegisterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

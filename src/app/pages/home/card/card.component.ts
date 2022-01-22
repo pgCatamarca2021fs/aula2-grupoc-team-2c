@@ -9,9 +9,10 @@ export class CardComponent implements OnInit {
 
   constructor() {}
 
-  @Input() titulo: string = ''; // el @Input recibe un valor del componente padre.
-  @Input() imagenDireccion: string = '';
-  @Input() ejemplo: any = '';
+  @Input() title: string = ''; // el @Input recibe un valor del componente padre.
+  @Input() imgUrl: string = '';
+  @Input() example: any = '';
+
 
   ngOnInit(): void {
   }

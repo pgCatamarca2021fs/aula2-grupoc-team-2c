@@ -1,10 +1,16 @@
-
 section{
-  background-image: url(../../../../assets/img/paisaje.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+    background-image: url(../../../../assets/img/paisaje.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-#transparencia{
-  background-color: rgba(44, 38, 38, 0.5);
+#banner-home{
+    background-color: rgba(44, 38, 38, 0.5);
 }
+
+@media only screen and (max-width:768px) {
+  .text-content{
+    text-align: center;
+  }
+}
+

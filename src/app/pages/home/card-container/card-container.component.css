@@ -1,5 +1,5 @@
 section{
-  background: rgb(181,126,68);
-  background: linear-gradient(0deg, #8b709d 0%, rgba(115,66,101,1) 32%, rgba(42,20,32,1) 88%);
-  border-top: 5px solid rgb(46, 30, 41);
+    background: rgb(181,126,68);
+    background: linear-gradient(0deg, #8b709d 0%, rgba(115,66,101,1) 32%, rgba(42,20,32,1) 88%);
+    border-top: 5px solid rgb(46, 30, 41);
 }
