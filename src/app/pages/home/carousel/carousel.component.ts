@@ -5,13 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './carousel.component.html',
   styleUrls: ['./carousel.component.css']
 })
-export class CarrouselComponent implements OnInit {
+export class CarouselComponent implements OnInit {
 
   constructor() { }
-
 
   ngOnInit(): void {
   }
 
 }
-
