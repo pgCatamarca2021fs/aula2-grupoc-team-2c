@@ -1,6 +1,6 @@
 footer{
    background-color: #181A20;
-   padding:70px 0px;
+   padding:40px 0px;
 }	       
 
 footer ul li{
@@ -37,13 +37,6 @@ footer ul li{
   margin-right: 15px;
   font-size:25px;
 }
-
-.copyright { 
-  min-height:40px; 
-  background-color:#000000;
-  text-align:center; text-emphasis-color:#FFF;
-}
-
 
  .back-to-top {
   bottom: 5px;
