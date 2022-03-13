@@ -6,13 +6,17 @@ import { BannerComponent } from './banner/banner.component';
 import { CardContainerComponent } from './card-container/card-container.component';
 import { CardComponent } from './card/card.component';
 import { RouterModule } from '@angular/router';
+import { CarouselComponent } from './carousel/carousel.component';
+
 
 @NgModule({
   declarations: [
     HomeComponent,
     BannerComponent,
     CardContainerComponent,
-    CardComponent
+    CardComponent,
+    CarouselComponent,
+
   ],
   imports: [
     CommonModule,
